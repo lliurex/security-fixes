@@ -9,10 +9,10 @@ Homepage: https://portal.edu.gva.es/lliurex/va
 #Vcs-Browser: https://salsa.debian.org/debian/foo
 Vcs-Git: https://github.com/lliurex/security-fixes 
 
-Package: security-fixes
+Package: dirty-frag
 Architecture: all
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
-Description: <insert up to 60 chars description>
- <Insert long description, indented with spaces.>
+Description: Mitigation for dirty-frag 
+ Ubuntu solution for dirty-frag vulnerability ( CVE-2026-43284 and CVE-2026-43500 )

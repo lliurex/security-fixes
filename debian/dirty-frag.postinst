@@ -20,6 +20,8 @@ set -e
 
 case "$1" in
     configure)
+	    update-initramfs -u -k all
+	    rmmod esp4 esp6 rxrpc 2>/dev/null || true
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
